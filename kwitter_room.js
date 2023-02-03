@@ -11,13 +11,13 @@
 
 firebase.initializeApp({
       apiKey: "AIzaSyBQmgULsfD4tSTbBgI7kkE5m7i2EJkcqvs",
-      authDomain: "letschat-d2ecf.firebaseapp.com",
-      projectId: "letschat-d2ecf",
-      storageBucket: "letschat-d2ecf.appspot.com",
-      messagingSenderId: "233903248193",
-      appId: "1:233903248193:web:7997f493fa431fe93f87c0",
-      measurementId: "G-KE4813ZD7M",
-      databaseURL: "https://letschat-d2ecf-default-rtdb.firebaseio.com/"
+  authDomain: "letschat-d2ecf.firebaseapp.com",
+  databaseURL: "https://letschat-d2ecf-default-rtdb.firebaseio.com",
+  projectId: "letschat-d2ecf",
+  storageBucket: "letschat-d2ecf.appspot.com",
+  messagingSenderId: "233903248193",
+  appId: "1:233903248193:web:7997f493fa431fe93f87c0",
+  measurementId: "G-KE4813ZD7M"
 });
 
 var username = localStorage.getItem("Username")
